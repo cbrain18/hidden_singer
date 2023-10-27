@@ -20,6 +20,7 @@ nav li a{
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+
 nav li:last-child a{
   border-right: 0;
   }
@@ -63,14 +64,6 @@ li a:hover{
  position: fixed;
  right: 18px;
  top: 10px;
-}
-
-/*배경 이미지*/
-.bg {
-  width: 1519px;
-  height: 914px;
-  background-image: url(background.jpeg);
-  background-size: cover;
 }
 
 /*드롭다운 버튼*/
