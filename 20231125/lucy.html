@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Lucy</title>
+  <link rel="stylesheet" type="text/css" href="lucy.css">
+  <style>
+    body {
+      background-image: url(pic/배경/bg.jpg);
+    }
+    .audio-player {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+    }
+    .audio-controls {
+      margin-left: 20px;
+    }
+    #myAudio{
+      height:24px;
+      width:100%;
+    }
+    h1{
+      font-family:"Comic Sans MS", Serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">HIDDEN SINGER</a></h1> 
+          <hr>
+          <div class="menu" >
+              <nav class="clearfix">
+                  <ul class="clearfix">
+                      <li><a href="index.html">Home</a></li>
+                      <li>
+                          <div class="dropdown">
+                            <button type="button" onclick="location.href='Artist.html' ">Artist</button>
+                              <div class="dropdown-content">
+                                <a href="ALEPH.html">ALEPH</a>
+                                <a href="lucy.html">Lucy</a>
+                                <a href="song.html">송하예</a>
+                                <a href="lee.html">이준형</a>
+                              </div>
+                          </div>
+                      </li>
+                      <!-- 드롭다운 버튼 -->
+                      <li>
+                          <div class="dropdown">
+                              <button class="dropbtn">KR</button>
+                              <div class="dropdown-content">
+                              <a href="#">EN</a>
+                              </div>
+                          </div>
+                      </li>
+                  </ul>
+              </nav>
+          </div>
+  </header>
+
+  <div class="celebrity-container">
+    <img class="celebrity-image" src="pic/인물/lucy.jpg" alt="루시" width="567" height="536">
+    <div class="celebrity-info">
+        <h2>루시 LUCY</h2>
+        <p><strong>소속사 : </strong>미스틱스토리</p>
+        <p><strong>팀컬러 : </strong>파란색</p>
+        <p><strong>장르 : </strong>앰비언스 팝, 록, 익렉트로니카, R&B</p>
+        <p><strong>데뷔 : </strong>2020.05.08</p>
+
+        <details class="member-info">
+          <summary><strong>멤버 : </strong>신예찬(리더)</summary>
+          <p><strong>사용악기 : </strong>바이올린</p>
+          <p><strong>출생 : </strong>1992.06.13 / 충정북도 충주시</p>
+          <p><strong>소속 그룹 : </strong>루시</p>
+          <p><strong>데뷔 : </strong>2020.05.08</p>
+          <p><strong>MBTI : </strong>ISTP</p>
+          <p><strong>신장 : </strong>170.6cm</p>
+          <p><strong>혈액형 : </strong>A형</p>
+          <p><strong>사이트:</strong> 
+            <a href="https://www.instagram.com/ye___chani/">
+              <img src="pic/아이콘/insta.png" alt="인스타" height="30" width="30"></a>
+          </p>  
+        </details>
+
+        <details class="member-info">
+          <summary><strong>멤버 : </strong>최상엽</summary>
+          <p><strong>사용악기 : </strong>기타</p>
+          <p><strong>출생 : </strong>1994.92.27 / 경기도 성남시</p>
+          <p><strong>소속 그룹 : </strong>루시</p>
+          <p><strong>데뷔 : </strong>2020.05.08</p>
+          <p><strong>MBTI : </strong>비공개</p>
+          <p><strong>신장 : </strong>177cm</p>
+          <p><strong>혈액형 : </strong>A형</p>
+          <p><strong>사이트:</strong> 
+            <a href="https://www.instagram.com/yeopx2/">
+              <img src="pic/아이콘/insta.png" alt="인스타" height="30" width="30"></a>
+          </p>
+        </details>
+
+        <details class="member-info">
+          <summary><strong>멤버 : </strong>조원상</summary>
+          <p><strong>사용악기 : </strong>베이스</p>
+          <p><strong>출생 : </strong>1996.08.15 / 서울특별시 강남구</p>
+          <p><strong>소속 그룹 : </strong>루시</p>
+          <p><strong>데뷔 : </strong>2020.05.08</p>
+          <p><strong>MBTI : </strong>ENFP, ESTP</p>
+          <p><strong>신장 : </strong>184cm</p>
+          <p><strong>혈액형 : </strong>A형</p>
+          <p><strong>사이트:</strong> 
+            <a href="https://www.instagram.com/ch0_w0n/">
+              <img src="pic/아이콘/insta.png" alt="인스타" height="30" width="30"></a>
+          </p>
+        </details>
+
+        <details class="member-info">
+          <summary><strong>멤버 : </strong>신광일</summary>
+          <p><strong>사용악기 : </strong>드럼</p>
+          <p><strong>출생 : </strong>1997.05.25 / 경상남도 거제시</p>
+          <p><strong>MBTI : </strong>ISTJ</p>
+          <p><strong>신장 : </strong>174cm</p>
+          <p><strong>혈액형 : </strong>O형</p>
+          <p><strong>사이트:</strong> 
+            <a href="https://www.instagram.com/gwangil_s">
+              <img src="pic/아이콘/insta.png" alt="인스타" height="30" width="30"></a>
+          </p>
+        </details>
+
+    </div>
+  </div>
+  <div class="song-list">
+    <h3>노래 목록</h3>
+    <ul>
+      <li>
+        <img class="album-image" src="pic/앨범커버/루시/개화 (Flowering).jpg" alt="">
+        <p>개화 (Flowering)</p>
+        <br>
+        <hr>
+        봄을 연상케 하는 ‘개화'를 통해서 LUCY의 시작을 알림은 물론 힘들고 어려운 시기를 겪고 있는 사람들에게, 겨울의 추위를 이겨내고 활짝 피는 꽃들처럼 아름답게 만개하는 시기가 올 것임을 이야기 하며 위로와 응원의 메시지를 전한다.
+        
+        <audio id="myAudio" controls>
+          <source src="./music/루시 (LUCY) - 개화 (Flowering).mp3" type="audio/mp3">
+          브라우저가 오디오를 지원하지 않습니다.
+        </audio>
+        <details class="song-info">
+          <summary>곡 정보</summary>
+          <p>발매 - 2020.05.08</p>
+          <p>작사 - 조원상, 최상엽</p>
+          <p>작곡 - 조원상, O.YEON</p>
+          <p>편곡 - 조원상, 신예찬, 최상엽, 신광일, O.YEON</p>
+        </details>
+      </li>
+
+
+      <li>
+        <img class="album-image" src="pic/앨범커버/루시/수박깨러가 (Watermelon).jpg" alt="">
+        <br>
+        수박깨러가 (Watermelon)
+        <hr>
+        무더운 여름 밀려오는 회색 도시의 걱정은 잠시 내일로 미루고 푸른 빛의 파도와 젊음이 함께 넘실거리는 바다로 떠나자는 내용을 담고 있다.
+        
+        <audio id="myAudio" controls>
+        <source src="./music/루시 (LUCY) - 수박깨러가 (Watermelon).mp3" type="audio/mp3">
+        브라우저가 오디오를 지원하지 않습니다.
+      </audio>
+          <details class="song-info">
+            <summary>곡 정보</summary>
+            <p>발매 - 2020.08.13</p>
+            <p>작사 - 조원상, 최상엽</p>
+            <p>작곡 - 조원상</p>
+            <p>편곡 - 조원상, O.YEON, 박지환</p>
+          </details>
+      </li>
+
+      <li>
+        <img class="album-image" src="pic/앨범커버/루시/Jogging(조깅).jpg" alt="">
+        <br>
+        Jogging(조깅)
+        <hr>
+        마라톤 코스처럼 정해진 선을 따라 경쟁하듯 멈추지 못하고 달려가는 사람들에게,
+        자신만의 속도감으로 원하는 방향을 향해 조깅하듯 달려 나가기를 바라는 마음을 담은 곡
+        
+        <audio id="myAudio" controls>
+          <source src="./music/루시 (LUCY) - 조깅 (Jogging).mp3" type="audio/mp3">
+          브라우저가 오디오를 지원하지 않습니다.
+        </audio>
+        <details class="song-info">
+          <summary>곡 정보</summary>
+          <p>발매 - 2020.08.13</p>
+          <p>작사 - 조원상, 신예찬, 최상엽, 신광일</p>
+          <p>작곡 - 조원상</p>
+          <p>편곡 - 조원상, O.YEON, 박지환</p>
+        </details>
+      </li>
+
+      <li>
+        <img class="album-image" src="pic/앨범커버/루시/Snooze(선잠).jpg" alt="">
+        <br>
+        Snooze(선잠)
+        <hr>
+        낮 보다 밤을 기다리게 된 회색 빛의 사람들에게,
+        당신의 잃어버린 기억과 평안을 찾기를 바라는 마음을 담은 노래
+        
+        <audio id="myAudio" controls>
+          <source src="./music/루시 (LUCY) - Snooze (선잠).mp3" type="audio/mp3">
+          브라우저가 오디오를 지원하지 않습니다.
+        </audio>
+        <details class="song-info">
+          <summary>곡 정보</summary>
+          <p>발매 - 2020.11.12</p>
+          <p>작사 - 조원상, 신예찬, 이주혁, 신광일</p>
+          <p>작곡 - 조원상, 신예찬, 이주혁, 신광일</p>
+          <p>편곡 - 조원상, 신예찬, 이주혁, 신광일, O.YEON, 박지환</p>
+        </details>
+      </li>
+
+      <li>
+        <img class="album-image" src="pic/앨범커버/루시/난로.jpg" alt="">
+        <br>
+        난로
+        <hr>
+        많이 외롭고 갈피를 잡지 못하는 청춘의 한자락. 누군가를 통해 한 모금의 용기를 얻은 화자는 모닥불을 바라보며 서서히 자신에게 주어진 긍정적인 상황에 집중한다. 때로는 긴 시간의 배움보다 짧은 성찰이 우리를 성큼 자라게 하듯 화자도 그랬다. 노래의 말미에 작은 모닥불이 세상 온기의 전부인 것 같았던 그는 더 이상 거기에 없다. 이제는 다른 이에게 기댈 누군가가 되겠다는 홀연 한 다짐만 남긴 채 노래는 끝난다.
+      
+        <audio id="myAudio" controls>
+          <source src="./music/루시 (LUCY) - 난로.mp3" type="audio/mp3">
+          브라우저가 오디오를 지원하지 않습니다.
+        </audio>
+        <details class="song-info">
+          <summary>곡 정보</summary>
+          <p>발매 - 2021.02.16</p>
+          <p>작사 - 조원상, 신예찬, 최상엽, 신광일</p>
+          <p>작곡 - 조원상, O.YEON</p>
+          <p>편곡 - 조원상, 신예찬, 최상엽, 신광일, O.YEON, 박지환</p>
+        </details class="song-info">
+      </li>
+
+      <li>
+        <img class="album-image" src="pic/앨범커버/루시/One by One.jpg" alt="">
+        <br>
+        One by One
+        <hr>
+        설렘이 폭발하는 듯 숨길 수 없는 마음으로 질주해 나가는 멜로디와 사랑하는 연인의 속도에 맞춰 한 걸음씩 나아가겠다는 가사의 대비가 인상적인 곡
+        <audio id="myAudio" controls>
+          <source src="./music/루시 (LUCY) - One by One.mp3" type="audio/mp3">
+          브라우저가 오디오를 지원하지 않습니다.
+        </audio>
+        <details class="song-info">
+          <summary>곡 정보</summary>
+          <p>발매 - 2021.06.16</p>
+          <p>작사 - 조원상, 최상엽, 홍이삭</p>
+          <p>작곡 - 조원상, O.YEON, 최영훈</p>
+          <p>편곡 - 조원상, O.YEON, 최영훈, 박지환</p>
+        </details>
+      </li>
+
+      <li>
+        <img class="album-image" src="pic/앨범커버/루시/Oh-eh.jpg" alt="">
+        <br>
+        Oh-eh
+        <hr>
+        경쾌하고 로맨틱한 색깔은 낮의 사랑, 다이내믹하고 파워풀한 색깔은 밤의 사랑이 두 가지의 사랑을 테마
+        <audio id="myAudio" controls>
+          <source src="./music/루시 (LUCY) - Oh-eh.mp3" type="audio/mp3">
+          브라우저가 오디오를 지원하지 않습니다.
+        </audio>
+        <details class="song-info">
+          <summary>곡 정보</summary>
+          <p>발매 - 2022.04.07</p>
+          <p>작사 - 조원상</p>
+          <p>작곡 - 이원석 (of 데이브레이크)</p>
+          <p>편곡 - 조원상 , O.YEON , 최영훈</p>
+        </details>
+      </li>
+
+      <li>
+        <img class="album-image" src="pic/앨범커버/루시/채워 (Fill it up).jpg" alt="">
+        <br>
+        채워 (Fill it up)
+        <hr>
+        게임 오버의 상황에서 이 노래를 통해 새로운 목숨을 부여하고, 새로운 도전을 나아가는 것처럼,
+        그들의 음악이 누군가에게 새로운 불씨가 되길 바라고 있다.
+        <audio id="myAudio" controls>
+          <source src="./music/루시 (LUCY) - Fill it up (채워).mp3" type="audio/mp3">
+          브라우저가 오디오를 지원하지 않습니다.
+        </audio>
+        <details class="song-info">
+          <summary>곡 정보</summary>
+          <p>발매 - 2023.02.23</p>
+          <p>작사 - 조원상, 황민재</p>
+          <p>작곡 - 조원상, O.YEON, 최영훈</p>
+          <p>편곡 - 조원상, O.YEON, 최영훈</p>
+        </details>
+      </li>
+
+      <li>
+        <img class="album-image" src="pic/앨범커버/루시/아지랑이(Haze).jpg" alt="">
+        <br>
+        아지랑이(Haze)
+        <hr>
+        우리는 여전히 누군가에게 사랑과 살아갈 힘을 주는 존재이고, 그로써 본인의 삶이 얼마나 가치있는가를 이야기하며, 음악을 통해 오래도록 듣는 이 옆에 남아 위로를 전하고 싶은 LUCY의 메시지        
+        <audio id="myAudio" controls>
+          <source src="./music/루시 (LUCY) - 아지랑이 (Haze).mp3" type="audio/mp3">
+          브라우저가 오디오를 지원하지 않습니다.
+        </audio>
+        <details class="song-info">
+          <summary>곡 정보</summary>
+          <p>발매 - 2023.08.17</p>
+          <p>작사 - 조원상, 이은송</p>
+          <p>작곡 - 조원상, O.YEON, 최영훈, 이은송</p>
+          <p>편곡 - 조원상, O.YEON, 최영훈, T-lack(HIGHBRID)</p>
+        </details>
+      </li>
+
+      <li>
+        <img class="album-image" src="pic/앨범커버/루시/Hot! (뜨거).jpg" alt="">
+        <br>
+        Hot!(뜨거)
+        <hr>
+        뜨거운 여름, 사랑하는 사람을 찾아 나가고픈 화자의 더위를 식혀줄 EDM 사운드와 화면을 뚫고 상대에게 질주하고 싶은 마음이 담긴 사이버틱한 사운드가 듣는 재미를 더하고, 적재적소에 배치된 FX로 곡에 몰입감을 더했
+        <audio id="myAudio" controls>
+          <source src="./music/루시 (LUCY) - Hot! (뜨거).mp3" type="audio/mp3">
+          브라우저가 오디오를 지원하지 않습니다.
+        </audio>
+        <details class="song-info">
+          <summary>곡 정보</summary>
+          <p>발매 - 2023.08.17</p>
+          <p>작사 - 조원상, 이은송</p>
+          <p>작곡 - 조원상, O.YEON, 최영훈</p>
+          <p>편곡 - 조원상, O.YEON, 최영훈, T-lack(HIGHBRID)</p>
+        </details>
+      </li>
+  </div>
+</body>
+</html>
