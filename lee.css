@@ -143,3 +143,67 @@ nav {
     line-height: 50px;
     padding: 6px;
   }
+
+  #myAudio{
+    height:24px;
+    width:100%;
+  }
+
+  /*popup*/
+.popup {
+  display: none;
+  position: fixed;
+  padding: 0;
+  width: 375px;
+  height: 550px;
+  background:#fff;
+  box-sizing: border-box;
+  top: 50%; /* 추가된 부분: 화면 상단에서 50% 위치에 고정 */
+  left: 50%; /* 추가된 부분: 화면 좌측에서 50% 위치에 고정 */
+  transform: translate(-50%, -60%);
+  z-index: 50;
+}
+.close-box {
+  position: absolute;
+}
+
+/*앨범 오디오*/
+.music {
+  position: relative;
+  width:200px;
+  height:200px;
+  background-color: #f1f3f4;
+}
+
+.music .box {
+  position: relative;
+  width:200px;
+  height:200px;
+}
+
+.music .box img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width:200px;
+  height:200px;
+  object-fit: cover;
+}
+
+.music audio {
+  width: 100%;
+  outline: none;
+  /* transform: translate(0, -464%); */
+  transform: translate(0, -100%);
+}
+
+.music audio::-webkit-media-controls {
+  /* background-color: rgba(0, 0, 0, 0); */
+  background-color: #f1f3f47d;
+  padding: inherit;
+}
+
+.music audio::-webkit-media-controls-enclosure {
+  /* background-color: rgba(0, 0, 0, 0); */
+  background-color: #f1f3f400;
+}
